@@ -2,7 +2,7 @@
 .github
 .husky
 .vscode
-.yarn
+.pnpm-lock
 .nyc_output
 coverage
 coverage-e2e

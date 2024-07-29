@@ -1,12 +1,12 @@
-if (process.env.npm_execpath.indexOf('yarn') === -1) {
+if (process.env.npm_execpath.indexOf('pnpm') === -1) {
 	throw new Error(`
-  
+
   ###################################################
   #                                                 #
-  #  Please use Yarn > 1.3 to install dependencies  #
+  #  Please use pnpm > 9 to install dependencies    #
   #                                                 #
-  #  1. Install yarn (https://yarnpkg.com/)         #
-  #  2. Run 'yarn' instead of 'npm install'         #
+  #  1. Install pnpm (https://pnpm.io/installation) #
+  #  2. Run 'pnpm install' instead of 'npm install' #
   #                                                 #
   ###################################################
   `);
